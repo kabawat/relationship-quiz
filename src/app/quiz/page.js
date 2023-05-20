@@ -2,11 +2,7 @@
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 
-export const metadata = {
-    title: 'Quiz',
-    description: 'Quiz App',
-}
-const Quiz = ({ baseUrl }) => {
+const Quiz = () => {
     const [isRender, setIsRender] = useState(false)
     const [count, setCount] = useState(1)
     const [quiz, setQuiz] = useState({})
